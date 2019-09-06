@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="textPersonName"
+        android:hint="name"
+        android:ems="10"
+        android:id="@+id/et_name"
+        android:layout_alignParentTop="true"
+
+        android:layout_marginTop="94dp" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="textPassword"
+        android:hint="password"
+        android:ems="10"
+        android:id="@+id/et_password"
+        android:layout_below="@+id/et_name"
+        />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="LOGIN"
+        android:id="@+id/btn_login"
+        android:layout_centerVertical="true"
+         />
+
+    <Button
+        android:id="@+id/btn_clear"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/btn_login"
+        android:layout_alignTop="@+id/btn_login"
+        android:layout_alignRight="@+id/btn_login"
+        android:layout_marginLeft="207dp"
+        android:layout_marginRight="-207dp"
+        android:text="CLEAR" />
+</RelativeLayout>
